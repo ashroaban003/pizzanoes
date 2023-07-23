@@ -2,7 +2,7 @@ import css from '../styles/Hero.module.css'
 import Image from 'next/image'
 import Cherry from '../assets/Cherry.png'
 import HeroImage from '../assets/HeroImage.png'
-import Pizzal from '../assets/P1.jpg'
+// import Pizzal from '../assets/P1.jpg'
 
 export default function Hero(params) {
     return(
@@ -33,7 +33,7 @@ export default function Hero(params) {
                     <Image src={HeroImage} alt="" size={10} />
                 </div>
 
-                <div className={css.Pizza}>
+                {/* <div className={css.Pizza}>
                     <div>
                     <Image src={Pizzal} alt="" width={450} height={370} objectFit="cover"
                     layout='intrinsic'/> </div>
@@ -41,7 +41,7 @@ export default function Hero(params) {
                           <span>Italian Pizza</span>
                           <span> <span style={{color: "var(--themeRed)"}}>$</span> 6.54</span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
