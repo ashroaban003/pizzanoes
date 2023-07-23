@@ -3,8 +3,8 @@ import { client } from "../../lib/client";
 import css from '../../styles/Slug.module.css';
 import Image from 'next/image'
 import { urlFor } from '../../lib/client'
-import leftarrow from '../../assets/arrowleft.png'
-import rightarrow from '../../assets/arrowright.png'
+import leftarrow from '../../assets/arrowLeft.png'
+import rightarrow from '../../assets/arrowRight.png'
 import { useState } from "react";
 import { useStore } from "../../store/store";
 import toast,{ Toaster } from "react-hot-toast";

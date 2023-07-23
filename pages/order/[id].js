@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 import css from '../../styles/Order.module.css'
 import {UilBill, UilBox} from '@iconscout/react-unicons'
 import Image from 'next/image'
-import cooking from '../../assets/Cooking.png'
+import cooking from '../../assets/cooking.png'
 import Onway from '../../assets/onway.png'
 import spinner from '../../assets/spinner.svg'
 import { useEffect } from "react";
