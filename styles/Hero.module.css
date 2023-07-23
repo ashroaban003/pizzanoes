@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.cherry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--pink);
+    margin-top: 3rem;
+    padding:1rem;
+    font-style: 0.7rem;
+    color: var(--themeRed);
+    border-radius: 1.5rem;
+
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+}
+
+.miniText{
+    width: 70%;
+    color: var(--gray);
+    font-weight: 600;
+}
+.btn{
+    padding: 1rem 2.5rem;
+}
+
+.right{
+    position: relative;
+}
+
+.imageContainer{
+    top:-4rem;
+    max-width: 38rem;
+}
+.imageContainer>*{   
+    position: absolute;
+}
+.Pizza{
+    display: flex;
+    border-radius: 7px;
+    gap:1rem;
+    padding: 9px;
+    background: white;
+    box-shadow: var(--shadow);
+   position: absolute;
+    bottom: 4rem;
+    left: 25rem;
+    width: max-content;
+    
+}
+.Pizza>:nth-child(1){
+   max-width: 4rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.Pizza>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.Pizza:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
